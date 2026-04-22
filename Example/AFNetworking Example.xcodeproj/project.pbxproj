@@ -34,7 +34,6 @@
 		29E6F1A51BB9DD7300A4466C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19C1BB9DD7300A4466C /* User.m */; };
 		29E6F1A61BB9DD7300A4466C /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19F1BB9DD7300A4466C /* AFAppDotNetAPIClient.m */; };
 		29E6F1AC1BB9DDB600A4466C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E6F1AB1BB9DDB600A4466C /* Assets.xcassets */; };
-		29E6F1E11BB9E03600A4466C /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E6F1E01BB9E03600A4466C /* Launchscreen.storyboard */; };
 		29E6F1E91BB9E37200A4466C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E6F1E81BB9E37200A4466C /* NotificationCenter.framework */; };
 		29E6F1ED1BB9E37200A4466C /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F1EC1BB9E37200A4466C /* TodayViewController.m */; };
 		29E6F1F01BB9E37200A4466C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E6F1EE1BB9E37200A4466C /* MainInterface.storyboard */; };
@@ -43,6 +42,9 @@
 		29E6F1FA1BB9E56500A4466C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6F19C1BB9DD7300A4466C /* User.m */; };
 		C2BFE0251C11870800BB258D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BFE0241C11870800BB258D /* AppDelegate.m */; };
 		C2BFE0281C11872D00BB258D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BFE0271C11872D00BB258D /* AppDelegate.m */; };
+		F476F5E32F98678800A7FE8F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F476F5E22F98678800A7FE8F /* SceneDelegate.m */; };
+		F476F5E82F986B0A00A7FE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5E52F986B0A00A7FE8F /* Main.storyboard */; };
+		F476F5E92F986B0A00A7FE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5E42F986B0A00A7FE8F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,7 +138,6 @@
 		29E6F19E1BB9DD7300A4466C /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		29E6F19F1BB9DD7300A4466C /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		29E6F1AB1BB9DDB600A4466C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29E6F1E01BB9E03600A4466C /* Launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Launchscreen.storyboard; path = "iOS Example/Launchscreen.storyboard"; sourceTree = SOURCE_ROOT; };
 		29E6F1E61BB9E37200A4466C /* iOS Today Extension Example.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOS Today Extension Example.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E6F1E81BB9E37200A4466C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		29E6F1EB1BB9E37200A4466C /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -157,6 +158,10 @@
 		C2BFE0241C11870800BB258D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C2BFE0261C11872D00BB258D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2BFE0271C11872D00BB258D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F476F5E12F98678800A7FE8F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F476F5E22F98678800A7FE8F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F476F5E62F986B0A00A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F476F5E72F986B0A00A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +298,10 @@
 		29E6F1771BB9DCB500A4466C /* iOS Example */ = {
 			isa = PBXGroup;
 			children = (
+				F476F5E42F986B0A00A7FE8F /* LaunchScreen.storyboard */,
+				F476F5E52F986B0A00A7FE8F /* Main.storyboard */,
+				F476F5E12F98678800A7FE8F /* SceneDelegate.h */,
+				F476F5E22F98678800A7FE8F /* SceneDelegate.m */,
 				C2BFE0261C11872D00BB258D /* AppDelegate.h */,
 				C2BFE0271C11872D00BB258D /* AppDelegate.m */,
 				291BFE071BB9EB3400FFB029 /* Controllers */,
@@ -307,7 +316,6 @@
 			children = (
 				29E6F20B1BB9E5FC00A4466C /* Info.plist */,
 				29E6F1791BB9DCB500A4466C /* main.m */,
-				29E6F1E01BB9E03600A4466C /* Launchscreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -584,7 +592,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E6F1AC1BB9DDB600A4466C /* Assets.xcassets in Resources */,
-				29E6F1E11BB9E03600A4466C /* Launchscreen.storyboard in Resources */,
+				F476F5E82F986B0A00A7FE8F /* Main.storyboard in Resources */,
+				F476F5E92F986B0A00A7FE8F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +644,7 @@
 				29E6F1A41BB9DD7300A4466C /* Post.m in Sources */,
 				291BFE0D1BB9EB3400FFB029 /* GlobalTimelineViewController.m in Sources */,
 				291BFE0E1BB9EB3400FFB029 /* PostTableViewCell.m in Sources */,
+				F476F5E32F98678800A7FE8F /* SceneDelegate.m in Sources */,
 				29E6F1A51BB9DD7300A4466C /* User.m in Sources */,
 				29E6F17A1BB9DCB500A4466C /* main.m in Sources */,
 				29E6F1A61BB9DD7300A4466C /* AFAppDotNetAPIClient.m in Sources */,
@@ -696,6 +706,22 @@
 				29E6F2111BB9E76A00A4466C /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		F476F5E42F986B0A00A7FE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476F5E72F986B0A00A7FE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F476F5E52F986B0A00A7FE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476F5E62F986B0A00A7FE8F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1187,7 +1213,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/iOS Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1231,7 +1257,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(PROJECT_DIR)/iOS Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alamofire.iOS-Example";
